@@ -5,6 +5,142 @@
 	(uuid "05b69af7-6216-4c4c-a332-a0d301bbbae5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "${KIPRJMOD}:4952"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "4952"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "4952:KEYSTONE_4952"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "4952"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "4952_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2767,16 +2903,52 @@
 		)
 	)
 	(junction
+		(at 1.27 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01f6c3c9-9aa7-40ed-8644-73ded90ea19b")
+	)
+	(junction
 		(at 228.6 10.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15642b08-d303-4172-8eae-61069673b10c")
 	)
 	(junction
+		(at 6.35 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ddd1a49-95a0-4f23-bd5e-bea7d3ca20a1")
+	)
+	(junction
 		(at 237.49 0)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dfa7fc9-07ae-4781-b817-efdc126a3e06")
+	)
+	(junction
+		(at 3.81 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30f002c5-4e41-4915-9654-abd202a34a40")
+	)
+	(junction
+		(at 5.08 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a789f7-2370-4595-add2-a1c8d43c55cd")
+	)
+	(junction
+		(at -3.81 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43f2328b-6388-4149-9428-c7ed7eac62b7")
+	)
+	(junction
+		(at -1.27 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7130760b-1677-4b2a-859c-cb6efa1ea54d")
 	)
 	(junction
 		(at 224.79 86.36)
@@ -2791,10 +2963,22 @@
 		(uuid "9796dbf2-8e1d-472f-aeb1-8888308a66f2")
 	)
 	(junction
+		(at 0 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59bb788-9a25-4dfb-8bf9-bbe2f0234344")
+	)
+	(junction
 		(at 250.19 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7f6a282-2bab-46e6-8772-d359050d5e5c")
+	)
+	(junction
+		(at 10.16 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b68bb8e8-fde5-4ec4-8b56-7ed860486d20")
 	)
 	(junction
 		(at 265.43 15.24)
@@ -3006,7 +3190,37 @@
 	)
 	(wire
 		(pts
-			(xy 5.08 102.87) (xy 15.24 102.87)
+			(xy 5.08 113.03) (xy 15.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023979eb-6fa0-40f5-8abe-a20ffad96b59")
+	)
+	(wire
+		(pts
+			(xy 5.08 209.55) (xy 10.16 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0401eda8-d5e2-4998-9ab7-d4718a03616f")
+	)
+	(wire
+		(pts
+			(xy 10.16 209.55) (xy 13.97 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a41b72-86f1-47b7-b238-1c46b80fc2ad")
+	)
+	(wire
+		(pts
+			(xy -7.62 102.87) (xy 6.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3023,6 +3237,16 @@
 			(type default)
 		)
 		(uuid "0b64afde-00a9-4943-98e4-1e6dd1e1da45")
+	)
+	(wire
+		(pts
+			(xy 1.27 50.8) (xy 13.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faa3cf9-0b5e-4730-96a3-f1d60b07660a")
 	)
 	(wire
 		(pts
@@ -3056,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 5.08 105.41) (xy 15.24 105.41)
+			(xy -11.43 105.41) (xy -3.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3073,6 +3297,16 @@
 			(type default)
 		)
 		(uuid "1ce32595-7eac-4125-8136-9d11b1a4d551")
+	)
+	(wire
+		(pts
+			(xy 5.08 110.49) (xy 15.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcec861-2465-46a6-a557-affbae72e3d0")
 	)
 	(wire
 		(pts
@@ -3093,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "22b2c922-85b1-4812-91de-1521d9e8e443")
+	)
+	(wire
+		(pts
+			(xy 6.35 102.87) (xy 15.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d80ac6-5a7b-442d-af3e-8edca2b2960d")
 	)
 	(wire
 		(pts
@@ -3226,16 +3470,6 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 60.96) (xy 13.97 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c1178f-52ff-461f-aaee-15141e5af03d")
-	)
-	(wire
-		(pts
 			(xy 5.08 170.18) (xy 13.97 170.18)
 		)
 		(stroke
@@ -3316,6 +3550,16 @@
 	)
 	(wire
 		(pts
+			(xy -1.27 50.8) (xy 1.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641004a2-46bc-4719-b024-6454bf1fcfdb")
+	)
+	(wire
+		(pts
 			(xy 219.71 12.7) (xy 228.6 12.7)
 		)
 		(stroke
@@ -3353,6 +3597,16 @@
 			(type default)
 		)
 		(uuid "68179759-8173-4dd2-baed-411869a6163f")
+	)
+	(wire
+		(pts
+			(xy 0 45.72) (xy 13.97 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2d911b-aae5-4b3d-88b5-c260bfef0144")
 	)
 	(wire
 		(pts
@@ -3426,16 +3680,6 @@
 	)
 	(wire
 		(pts
-			(xy 6.35 48.26) (xy 13.97 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86516ea1-5a8e-4a3f-8b47-ea76e72f70dc")
-	)
-	(wire
-		(pts
 			(xy 7.62 76.2) (xy 13.97 76.2)
 		)
 		(stroke
@@ -3466,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 6.35 50.8) (xy 13.97 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922d4dae-9d47-48dc-95de-7a5ea8c53f7d")
-	)
-	(wire
-		(pts
 			(xy 5.08 162.56) (xy 13.97 162.56)
 		)
 		(stroke
@@ -3483,16 +3717,6 @@
 			(type default)
 		)
 		(uuid "92ba2eb7-1a19-494e-a0a7-1aa1f5178049")
-	)
-	(wire
-		(pts
-			(xy 5.08 110.49) (xy 15.24 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df59f58-1193-4048-8430-a980d7fdbc4a")
 	)
 	(wire
 		(pts
@@ -3506,13 +3730,13 @@
 	)
 	(wire
 		(pts
-			(xy 5.08 209.55) (xy 13.97 209.55)
+			(xy -3.81 60.96) (xy -1.27 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5c49e16-a3b0-4cae-805c-173faa74007f")
+		(uuid "a3ebaaa2-dbd5-4c90-b7ee-3a37f8c3d3c6")
 	)
 	(wire
 		(pts
@@ -3536,7 +3760,27 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 63.5) (xy 13.97 63.5)
+			(xy -3.81 105.41) (xy 15.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a909b162-4c62-40da-9361-7a934db5dfa3")
+	)
+	(wire
+		(pts
+			(xy 0 48.26) (xy 3.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae341ee4-9af0-4392-a1d6-b147c45eb81d")
+	)
+	(wire
+		(pts
+			(xy 0 63.5) (xy 5.08 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3553,6 +3797,16 @@
 			(type default)
 		)
 		(uuid "b3d98d2b-db69-4237-a606-b027b347d9d5")
+	)
+	(wire
+		(pts
+			(xy -1.27 60.96) (xy 13.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78f20f1-56d6-4c97-9e13-368832d46585")
 	)
 	(wire
 		(pts
@@ -3596,13 +3850,13 @@
 	)
 	(wire
 		(pts
-			(xy 5.08 113.03) (xy 15.24 113.03)
+			(xy 3.81 48.26) (xy 13.97 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da86bad7-deaa-428b-86a1-aaaee421e680")
+		(uuid "d393062f-1ee3-4d3d-bcfe-ada9343604ca")
 	)
 	(wire
 		(pts
@@ -3616,13 +3870,13 @@
 	)
 	(wire
 		(pts
-			(xy 6.35 45.72) (xy 13.97 45.72)
+			(xy 5.08 63.5) (xy 13.97 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e113deef-c473-43bd-86bc-0ad57de68655")
+		(uuid "dde374c6-86ca-45b8-ba86-37ff0a6d2b20")
 	)
 	(wire
 		(pts
@@ -3643,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "fcdf2ebe-b350-4748-b7e7-16c5e76bae6c")
+	)
+	(wire
+		(pts
+			(xy -1.27 45.72) (xy 0 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff27a43b-a04c-469c-99ee-8dae791f85f6")
 	)
 	(label "MCLK_OUT"
 		(at 7.62 78.74 180)
@@ -3730,7 +3994,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 6.35 45.72 180)
+		(at -1.27 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3741,7 +4005,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 6.35 48.26 180)
+		(at 0 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3752,7 +4016,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 6.35 50.8 180)
+		(at -1.27 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3785,7 +4049,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
-		(at 8.89 60.96 180)
+		(at -3.81 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3796,7 +4060,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape input)
-		(at 8.89 63.5 180)
+		(at 0 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3917,7 +4181,7 @@
 	)
 	(hierarchical_label "MISO_2"
 		(shape input)
-		(at 5.08 105.41 180)
+		(at -11.43 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,14 +4192,14 @@
 	)
 	(hierarchical_label "SCK_2"
 		(shape input)
-		(at 5.08 102.87 180)
+		(at -7.62 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "cb8134b7-7671-4162-9b64-73badbd1f280")
+		(uuid "cb8134b7-7671-4162-9b64-73badbd1f281")
 	)
 	(hierarchical_label "MOSI_2"
 		(shape input)
@@ -3946,7 +4210,7 @@
 			)
 			(justify right)
 		)
-		(uuid "cb8134b7-7671-4162-9b64-73badbd1f280")
+		(uuid "cb8134b7-7671-4162-9b64-73badbd1f282")
 	)
 	(hierarchical_label "ACCELERMETER_CS6"
 		(shape input)
@@ -4013,6 +4277,124 @@
 			(justify right)
 		)
 		(uuid "fd721e1b-7c6b-4643-8f25-57cb1292a966")
+	)
+	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at 3.81 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0ffed0-d29b-4349-9642-e15e5ed99986")
+		(property "Reference" "MISO1"
+			(at 6.35 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 6.35 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 3.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "b9f5016c-76e9-4c1c-911d-c444a3b8679f")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "MISO1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "STM32H750VBT6TR:STM32H750VBT6TR")
@@ -5095,6 +5477,124 @@
 			(project ""
 				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at 1.27 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452604da-1957-47bb-a6f6-1057cac54591")
+		(property "Reference" "MOSI1"
+			(at 3.81 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 3.81 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "cc5cfce7-5f99-4a4b-969a-71e34fd60cfd")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "MOSI1")
 					(unit 1)
 				)
 			)
@@ -6267,6 +6767,124 @@
 		)
 	)
 	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at 5.08 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d31e04-2079-478e-92e5-a0299d499321")
+		(property "Reference" "TX1"
+			(at 7.62 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 7.62 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 5.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "5f3b975f-c32d-4d1f-b3f3-30fdf95aeed1")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "TX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at -26.67 236.22 0)
 		(unit 1)
@@ -6327,6 +6945,124 @@
 			(project "Vibration_Board"
 				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at 0 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8307aa94-3e77-456e-a022-5bb97bad77e1")
+		(property "Reference" "SCK1"
+			(at 2.54 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 2.54 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "71ecc76c-88b7-4a85-a645-452ca75d0b76")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "SCK1")
 					(unit 1)
 				)
 			)
@@ -6397,6 +7133,124 @@
 			(project ""
 				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at -1.27 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "967fc558-9541-4929-8518-7cb2252faec6")
+		(property "Reference" "RX1"
+			(at 1.27 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 1.27 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at -1.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "ccaf11fb-fce3-46d6-a202-ba923c2d1aae")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -7095,6 +7949,124 @@
 			(project "Vibration_Board"
 				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at 6.35 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c435bfe6-9951-4ec8-a182-6742509f1d38")
+		(property "Reference" "SCK2"
+			(at 8.89 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 8.89 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 6.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "b831739b-472c-4e56-aae5-9446d1ba777c")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "SCK2")
 					(unit 1)
 				)
 			)
@@ -7853,6 +8825,124 @@
 		)
 	)
 	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at -3.81 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e84d18df-0018-48af-9d53-b8972638a5f3")
+		(property "Reference" "MISO2"
+			(at 0 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 0 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at -3.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "a09b0672-7338-4f16-a84e-831b41193bb1")
+		)
+		(instances
+			(project ""
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "MISO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "STM32H750VBT6TR:STM32H750VBT6TR")
 		(at 132.08 113.03 0)
 		(unit 2)
@@ -8452,6 +9542,124 @@
 			(project ""
 				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "${KIPRJMOD}:4952")
+		(at 10.16 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff2d805b-88f7-4578-b732-84d778c0ba13")
+		(property "Reference" "MOSI2"
+			(at 13.97 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4952"
+			(at 13.97 205.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1726750413:KEYSTONE_4952"
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4952"
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 10.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "8fc4ba9e-998f-48d9-b790-cf4cb1a88628")
+		)
+		(instances
+			(project "Vibration_Board"
+				(path "/a253d658-fd52-4305-b7af-3d5656162b72/5b87b3fc-c4f2-4311-ba47-e3c5de905cc8"
+					(reference "MOSI2")
 					(unit 1)
 				)
 			)
