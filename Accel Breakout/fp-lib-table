@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Accel") (type "KiCad") (uri "${KIPRJMOD}/ul_KX132-1211/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "canhw") (type "KiCad") (uri "/home/cstubbs/Documents/rocketry/payload-2026-electrical/kicad-footprints/canhw_footprints.pretty") (options "") (descr ""))
+)
